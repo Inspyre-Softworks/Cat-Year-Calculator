@@ -30,7 +30,7 @@ jobs:
         pip install build poetry
     - name: Build Poetry Environment
       env:
-        PYPI_TOKEN: ${{ secrets.PYPI_API_TOKEN }}
+        PYPI_TOKEN: ${{ secrets.PYPI_TOKEN }}
       run: |
         poetry install
         poetry build
