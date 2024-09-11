@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "Cat-Year-Calculator"
-version = "1.0-dev.1"
+version = "1.0-dev.2"
 description = "A simple calculator to convert human years to cat years and vice-versa."
 authors = ["Taylor B. <t.blackstone@inspyre.tech>"]
 readme = "README.md"
